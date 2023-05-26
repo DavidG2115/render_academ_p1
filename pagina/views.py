@@ -20,7 +20,7 @@ def contact(request):
 def faq(request):
     return render(request, "faq.html")
 
-@login_required
+# @login_required
 def course(request):
     return render(request, "course.html")
 
